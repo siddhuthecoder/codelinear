@@ -110,13 +110,13 @@ export function HeroHeaderNav() {
 
           <div className="font-hero-mono flex min-w-0 flex-1 items-center justify-between font-medium max-md:max-w-fit max-md:pr-2">
             {/* Desktop nav links */}
-            <nav className="hidden max-w-[264px] md:flex" aria-label="Main navigation">
+            <nav className="hidden md:flex" aria-label="Main navigation">
               <ul className="flex items-center gap-5">
                 {navLinks.map((item) => (
                   <li key={item.label}>
                     <Link
                       href={item.href}
-                      className="inline-flex items-center gap-1 text-[0.6875rem] font-medium tracking-[0.06em] text-foreground/80 uppercase transition-colors hover:text-foreground"
+                      className="inline-flex items-center gap-1 text-[0.6875rem] font-medium tracking-[0.06em] text-foreground/80 uppercase transition-colors hover:text-foreground whitespace-nowrap"
                     >
                       {item.label}
                       {item.hasChevron ? <ChevronDown className="mt-px" /> : null}
