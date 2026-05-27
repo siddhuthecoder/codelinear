@@ -9,15 +9,15 @@ export function HeroVisual() {
         aria-hidden
       />
 
-      <div className="relative w-full max-w-[640px] lg:max-w-none">
+      <div className="relative w-full max-w-[640px] lg:max-w-none lg:translate-x-[6%]">
         <Image
           src="/banner_image.png"
           alt="Professional using N7 digital banking on laptop and mobile"
-          width={720}
+          width={820}
           height={640}
           priority
           className="h-auto w-full rounded-[var(--radius-2xl)] object-contain"
-          sizes="(max-width: 1024px) 100vw, 55vw"
+          sizes="(max-width: 1024px) 100vw, 60vw"
         />
       </div>
     </div>

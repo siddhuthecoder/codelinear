@@ -22,7 +22,7 @@ export function CoreBankingSection() {
 
         <div
           id="core-banking-heading"
-          className="z-10 grid items-center gap-0 lg:grid-cols-2 lg:gap-10 xl:gap-16"
+          className="z-10 grid items-center gap-8 lg:grid-cols-2 lg:gap-10 xl:gap-16"
         >
           <CoreBankingContent />
           <div className="min-w-0 lg:col-start-2">

@@ -241,6 +241,7 @@
     line-height: 1;
     text-transform: uppercase;
     min-height: 49px;
+    min-width: 13rem;
   }
 
   .btn-hero-primary {
@@ -1615,8 +1616,3 @@
   }
 }
 
-@media (max-width: 1024px) {
-  .hide-image-small {
-    display: none;
-  }
-}

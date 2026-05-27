@@ -17,7 +17,8 @@ export function SectionLaptopVisual({
   return (
     <div
       className={cn(
-        "section-laptop-visual hide-image-small relative flex min-h-[360px] w-full overflow-visible lg:min-h-[600px]",
+        "section-laptop-visual relative flex w-full",
+        "overflow-hidden lg:overflow-visible lg:min-h-[600px]",
         isRight ? "justify-end" : "justify-start",
       )}
     >
@@ -35,13 +36,16 @@ export function SectionLaptopVisual({
         width={480}
         height={580}
         className={cn(
-          "section-laptop-image absolute top-1/2 h-auto max-w-[min(100%,740px)] -translate-y-1/2 object-contain",
+          "h-auto object-contain",
+          // Mobile: normal in-flow, constrained height
+          "relative w-full max-h-[300px] rounded-xl",
+          // Desktop: absolute overhang positioning
+          "lg:max-h-none lg:rounded-none lg:absolute lg:top-1/2 lg:-translate-y-1/2 lg:max-w-[min(100%,740px)] lg:min-w-[600px]",
           isRight
-            ? "right-[-260px] ml-[100px] object-right lg:ml-auto"
-            : "left-[-250px] mr-[100px] object-left lg:mr-auto",
+            ? "lg:right-[-260px] lg:object-right"
+            : "lg:left-[-250px] lg:object-left",
         )}
-        sizes="(max-width: 1024px) 100vw, 46vw"
-        style={{ minWidth: "600px" }}
+        sizes="(max-width: 1024px) 90vw, 46vw"
       />
     </div>
   );

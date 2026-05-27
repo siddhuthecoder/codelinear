@@ -15,7 +15,7 @@ export function HeroContent() {
       <div className="mt-8 flex flex-wrap items-center gap-3 md:mt-10">
         <Link
           href="#request-demo"
-          className="btn-hero-primary inline-flex h-10 min-w-[8.5rem] items-center justify-center px-10"
+          className="btn-hero-primary inline-flex h-10 items-center justify-center px-10"
         >
           Request Demo
         </Link>

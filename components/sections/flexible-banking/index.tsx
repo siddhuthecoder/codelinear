@@ -13,16 +13,16 @@ export function FlexibleBankingSection() {
       noPaddingBottom
       noPaddingTop
     >
-      <div className="relative lg:min-h-[min(520px,90vw)] py-4 lg:min-h-[480px] lg:py-8">
+      <div className="relative py-8 lg:min-h-[480px] lg:py-8">
         <div
           id="flexible-banking-heading"
-          className="z-10 grid items-center gap-12 lg:grid-cols-[2fr_3fr] lg:gap-10 xl:gap-16 max-sm:mt-[-60px]"
+          className="z-10 grid items-center gap-8 lg:grid-cols-[2fr_3fr] lg:gap-10 xl:gap-16"
         >
-          <div className="min-w-0">
+          <div className="min-w-0 order-2 lg:order-1">
             <FlexibleVisual />
           </div>
 
-          <div className="min-w-0">
+          <div className="min-w-0 order-1 lg:order-2">
             <FlexibleContent />
           </div>
         </div>

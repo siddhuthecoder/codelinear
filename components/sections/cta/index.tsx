@@ -31,8 +31,8 @@ export function CtaSection({
     <Section
       id={id}
       surface={whiteBg ? "transparent" : "dark"}
-      padding="default"
-      className={`cta-section ${paddingX ? "py-4" : ""}`}
+      padding="none"
+      className={`cta-section py-6 md:py-8 ${paddingX ? "py-4" : ""}`}
       aria-labelledby={headingId}
       noPaddingSides={paddingX} 
       noPaddingBottom={id === "cta-footer"}
@@ -75,7 +75,7 @@ export function CtaSection({
             </Link>
             <Link
               href="#request-demo"
-              className="btn-hero-primary inline-flex h-10 min-w-[8.5rem] items-center justify-center px-10"
+              className="btn-hero-primary inline-flex h-10 items-center justify-center px-10"
             >
               Request Demo
             </Link>
