@@ -1,0 +1,31 @@
+import Link from "next/link";
+
+export function HeroContent() {
+  return (
+    <div className="font-archivo flex flex-col justify-center">
+      <h1 className="text-display-xl text-gradient-headline text-balance font-medium">
+        The new foundation of modern banking
+      </h1>
+
+      <p className="text-body-lg mt-6 max-w-xl text-pretty font-normal text-text-secondary">
+        We drive innovation and growth, provide seamless customer experience and
+        operational excellence
+      </p>
+
+      <div className="mt-8 flex flex-wrap items-center gap-3 md:mt-10">
+        <Link
+          href="#request-demo"
+          className="btn-hero-primary inline-flex h-10 min-w-[8.5rem] items-center justify-center px-10"
+        >
+          Request Demo
+        </Link>
+        <Link
+          href="#contact"
+          className="btn-hero-outline inline-flex h-10 items-center justify-center px-10"
+        >
+          Contact Us
+        </Link>
+      </div>
+    </div>
+  );
+}

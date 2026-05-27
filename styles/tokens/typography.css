@@ -1,0 +1,42 @@
+/**
+ * N7 — typography scale (Figtree)
+ * Fluid sizes preserve hierarchy at 320 → 1440px.
+ */
+
+:root {
+  /* Font families (set in layout.tsx) */
+  --font-sans: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
+
+  /* Display / headings */
+  --text-display-xl: clamp(2.25rem, 3.5vw + 1rem, 4rem);
+  --text-display-lg: clamp(1.875rem, 2.5vw + 0.75rem, 3rem);
+  --text-heading-lg: clamp(1.5rem, 1.5vw + 0.75rem, 2rem);
+  --text-heading-md: clamp(1.25rem, 1vw + 0.5rem, 1.5rem);
+  --text-heading-sm: 1.125rem;
+
+  /* Body */
+  --text-body-lg: clamp(1rem, 0.25vw + 0.95rem, 1.125rem);
+  --text-body-md: 1rem;
+  --text-body-sm: 0.875rem;
+
+  /* UI labels (nav, buttons, eyebrows) */
+  --text-label: 0.75rem;
+  --text-label-sm: 0.6875rem;
+
+  /* Line heights */
+  --leading-display: 1.1;
+  --leading-heading: 1.25;
+  --leading-body: 1.6;
+  --leading-tight: 1.2;
+
+  /* Letter spacing */
+  --tracking-display: -0.02em;
+  --tracking-label: 0.08em;
+  --tracking-nav: 0.06em;
+
+  /* Font weights */
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+}

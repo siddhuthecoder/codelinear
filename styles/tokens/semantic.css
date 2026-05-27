@@ -1,0 +1,48 @@
+/**
+ * N7 — semantic tokens (map primitives → UI roles)
+ * Dark theme is the landing page default.
+ */
+
+:root {
+  --background: var(--n7-navy-950);
+  --foreground: var(--n7-white);
+
+  --card: var(--n7-navy-800);
+  --card-foreground: var(--n7-white);
+
+  --popover: var(--n7-navy-800);
+  --popover-foreground: var(--n7-white);
+
+  --primary: var(--n7-blue-500);
+  --primary-foreground: var(--n7-white);
+
+  --secondary: var(--n7-navy-800);
+  --secondary-foreground: var(--n7-white);
+
+  --muted: var(--n7-navy-700);
+  --muted-foreground: var(--n7-gray-400);
+
+  --accent: var(--n7-blue-500);
+  --accent-foreground: var(--n7-white);
+
+  --destructive: #ef4444;
+  --border: var(--n7-border-subtle);
+  --input: var(--n7-border-strong);
+  --ring: var(--n7-blue-400);
+
+  /* Section surfaces */
+  --surface-dark: var(--n7-navy-950);
+  --surface-dark-elevated: var(--n7-navy-900);
+  --surface-light: var(--n7-surface-light);
+  --surface-light-muted: var(--n7-surface-muted);
+
+  /* Text roles */
+  --text-primary: var(--n7-white);
+  --text-secondary: var(--n7-gray-300);
+  --text-muted: var(--n7-gray-400);
+  --text-on-light: var(--n7-navy-900);
+  --text-link: var(--n7-blue-500);
+
+  /* Hero / decorative */
+  --hero-glow: var(--n7-blue-glow);
+}

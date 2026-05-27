@@ -1,0 +1,49 @@
+/**
+ * N7 — layout globals (1440px Figma artboard)
+ */
+
+:root {
+  /* Canvas */
+  --page-max-width: 90rem; /* 1440px */
+  --page-min-width: 20rem; /* 320px */
+
+  /* Horizontal gutter — 24px mobile → 80px desktop (Figma ~80px side padding) */
+  --gutter-x: clamp(1.5rem, 5vw, 5rem);
+
+  /* Vertical section rhythm */
+  --section-y: clamp(3.5rem, 8vw, 7.5rem);
+  --section-y-sm: clamp(2.5rem, 5vw, 5rem);
+  --section-y-lg: clamp(4rem, 10vw, 8.75rem);
+
+  /* Navbar capsule */
+  --nav-capsule-height: 3.25rem; /* 52px */
+  --nav-capsule-padding-x: 1.25rem;
+  --nav-capsule-top: 1.5rem;
+  --site-header-offset: calc(var(--nav-capsule-top) + var(--nav-capsule-height));
+
+  /* Content gaps */
+  --gap-section: clamp(2rem, 4vw, 4rem);
+  --gap-block: clamp(1rem, 2vw, 1.5rem);
+  --gap-inline: clamp(0.75rem, 1.5vw, 1.25rem);
+  --gap-solution-stack: 1.625rem; /* 26px — icon→title, description→link */
+
+  /* Grid */
+  --grid-columns: 12;
+  --grid-gap: clamp(1rem, 2vw, 1.5rem);
+
+  /* Radius (buttons ~8px, cards/hero ~24px) */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1.5rem;
+  --radius-2xl: 2rem;
+  --radius-button: 0.375rem; /* 6px */
+
+  /* Shadows */
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.25);
+  --shadow-elevated: 0 8px 40px rgba(0, 0, 0, 0.35);
+  --shadow-glow: 0 0 80px var(--hero-glow);
+
+  /* shadcn radius bridge */
+  --radius: var(--radius-md);
+}
