@@ -14,7 +14,7 @@ export function CoreBankingContent() {
       <div className="mt-[var(--gap-solution-stack)] flex flex-col items-start gap-4">
         <Link
           href="#request-demo"
-          className="btn-hero-primary inline-flex h-10 items-center justify-center px-10"
+          className="btn-hero-primary inline-flex items-center justify-center px-10"
         >
           Request Demo
         </Link>

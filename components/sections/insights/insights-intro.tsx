@@ -10,7 +10,7 @@ export function InsightsIntro() {
 
       <Link
         href="#insights"
-        className="btn-hero-outline mt-8 inline-flex h-10 w-fit items-center justify-center px-10 md:mt-10"
+        className="btn-hero-outline mt-8 inline-flex w-fit items-center justify-center px-10 md:mt-10"
       >
         Insights
       </Link>

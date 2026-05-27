@@ -69,13 +69,13 @@ export function CtaSection({
           <div className="flex flex-wrap items-center gap-3 lg:shrink-0">
             <Link
               href="#contact"
-              className="btn-hero-outline inline-flex h-10 items-center justify-center px-10"
+              className="btn-hero-outline inline-flex items-center justify-center px-10"
             >
               Contact Us
             </Link>
             <Link
               href="#request-demo"
-              className="btn-hero-primary inline-flex h-10 items-center justify-center px-10"
+              className="btn-hero-primary inline-flex items-center justify-center px-10"
             >
               Request Demo
             </Link>

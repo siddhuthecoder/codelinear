@@ -258,8 +258,10 @@
     letter-spacing: 0.06em;
     line-height: 1;
     text-transform: uppercase;
-    min-height: 49px;
+    height: 49px;
     min-width: 13rem;
+    box-sizing: border-box;
+    appearance: none;
   }
 
   .btn-hero-primary {

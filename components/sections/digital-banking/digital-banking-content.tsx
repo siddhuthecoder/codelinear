@@ -39,7 +39,7 @@ export function DigitalBankingLeftContent() {
       <div className="mt-8 flex flex-col items-start gap-4 md:mt-10">
         <Link
           href="#request-demo"
-          className="btn-hero-primary inline-flex h-10 items-center justify-center px-10"
+          className="btn-hero-primary inline-flex items-center justify-center px-10"
         >
           Request Demo
         </Link>
