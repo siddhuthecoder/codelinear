@@ -37,7 +37,7 @@ export function FlexibleContent() {
               {column.map((feature) => (
                 <li key={feature} className="flexi-feature-item flex items-start gap-1.5">
                   <FeatureCheckIcon />
-                  <span className="pt-[5px] text-white/70">{feature}</span>
+                  <span className="pt-[5px]">{feature}</span>
                 </li>
               ))}
             </ul>

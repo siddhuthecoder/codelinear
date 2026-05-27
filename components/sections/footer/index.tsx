@@ -60,7 +60,7 @@ export function FooterSection() {
               ))}
             </div>
 
-            <p className="footer-copyright text-xs leading-relaxed font-normal text-[rgba(255,255,255,0.4)]">
+            <p className="footer-copyright text-xs leading-relaxed font-normal text-text-muted">
               {footerCopyright}
             </p>
           </div>

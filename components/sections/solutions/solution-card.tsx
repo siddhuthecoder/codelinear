@@ -8,7 +8,7 @@ type SolutionCardProps = {
 
 export function SolutionCard({ solution }: SolutionCardProps) {
   return (
-    <article className="flex w-full flex-col items-start text-left">
+    <article className="flex w-full flex-col items-start text-left group cursor-default transition-transform duration-300 ease-out hover:-translate-y-1">
       <Image
         src={solution.iconSrc}
         alt=""

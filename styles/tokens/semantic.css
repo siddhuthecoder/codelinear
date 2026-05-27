@@ -46,3 +46,47 @@
   /* Hero / decorative */
   --hero-glow: var(--n7-blue-glow);
 }
+
+/* ─── Light mode overrides ─────────────────────────────────────────────────
+   Applied when <html class="light"> is set by ThemeProvider.
+   Dark mode is the default (no overrides needed for :root.dark).
+──────────────────────────────────────────────────────────────────────────── */
+
+:root.light {
+  --background: #f4f6fa;
+  --foreground: #0a0e17;
+
+  --card: #ffffff;
+  --card-foreground: #0a0e17;
+
+  --popover: #ffffff;
+  --popover-foreground: #0a0e17;
+
+  --secondary: #e8ecf4;
+  --secondary-foreground: #0a0e17;
+
+  --muted: #e8ecf4;
+  --muted-foreground: #5c6578;
+
+  --accent: var(--n7-blue-500);
+  --accent-foreground: #ffffff;
+
+  --border: rgba(10, 14, 23, 0.12);
+  --input: rgba(10, 14, 23, 0.2);
+  --ring: var(--n7-blue-500);
+
+  /* Section surfaces → light equivalents */
+  --surface-dark: #eef2f8;
+  --surface-dark-elevated: #e4ecf5;
+  --surface-light: #ffffff;
+  --surface-light-muted: #f8fafc;
+
+  /* Text roles → dark on light */
+  --text-primary: #0a0e17;
+  --text-secondary: #3d4a5c;
+  --text-muted: #5c6578;
+  --text-on-light: #0a0e17;
+
+  /* Glow reduced for light backgrounds */
+  --hero-glow: rgba(79, 107, 251, 0.18);
+}

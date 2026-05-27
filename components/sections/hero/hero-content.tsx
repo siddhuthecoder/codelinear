@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { RequestDemoTrigger } from "@/components/request-demo";
 
 export function HeroContent() {
   return (
@@ -13,12 +14,9 @@ export function HeroContent() {
       </p>
 
       <div className="mt-8 flex flex-wrap items-center gap-3 md:mt-10">
-        <Link
-          href="#request-demo"
-          className="btn-hero-primary inline-flex h-10 items-center justify-center px-10"
-        >
+        <RequestDemoTrigger className="btn-hero-primary inline-flex h-10 items-center justify-center px-10">
           Request Demo
-        </Link>
+        </RequestDemoTrigger>
         <Link
           href="#contact"
           className="btn-hero-outline inline-flex h-10 items-center justify-center px-10"

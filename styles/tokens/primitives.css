@@ -67,3 +67,41 @@
   );
   --n7-cb7-watermark-size: 35.75rem; /* 572px */
 }
+
+/* ─── Light mode primitive overrides ───────────────────────────────────────
+   Navy scale inverts to light grays so components using --n7-navy-* adapt
+   automatically without per-component overrides.
+──────────────────────────────────────────────────────────────────────────── */
+
+:root.light {
+  /* Navy → light gray scale */
+  --n7-navy-950: #eef2f8;
+  --n7-navy-900: #e4ecf5;
+  --n7-navy-800: #d8e4f0;
+  --n7-navy-700: #c8d5e8;
+
+  /* Borders → dark-on-light */
+  --n7-border-subtle: rgba(10, 14, 23, 0.1);
+  --n7-border-strong: rgba(10, 14, 23, 0.18);
+  --n7-border-nav: rgba(10, 14, 23, 0.12);
+  --n7-border-button: rgba(10, 14, 23, 0.18);
+
+  /* Glass & overlays */
+  --n7-glass-bg: rgba(255, 255, 255, 0.72);
+  --n7-glass-border: rgba(10, 14, 23, 0.1);
+
+  /* Nav capsule → white frosted */
+  --n7-nav-capsule-bg: rgba(255, 255, 255, 0.88);
+  --n7-nav-capsule-border: rgba(10, 14, 23, 0.12);
+
+  /* Glow → subtler on light backgrounds */
+  --n7-blue-glow: rgba(79, 107, 251, 0.18);
+  --n7-hero-glow-radial: radial-gradient(
+    ellipse 70% 60% at 70% 40%,
+    rgba(79, 107, 251, 0.1) 0%,
+    transparent 70%
+  );
+
+  /* Headline gradient → dark-to-gray */
+  --n7-gradient-text: linear-gradient(180deg, #0a0e17 0%, #5c6578 100%);
+}
